@@ -1,0 +1,136 @@
+body{
+    width: 100%;
+    margin: 0px;
+}
+
+.head{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    margin: 0px;
+}
+.left-h{
+    display: flex;
+    align-items: center;
+    width: 441.39px;
+    height: 60px;
+    padding-left: 24px;
+    font-size: 13px;
+}
+
+.double{
+    position: relative;
+    width: 26px;
+    height: 23px;
+    margin: 19px 24px 0px 0px;
+    top: -7px;
+    text-decoration-line: none;
+    color: #000;
+}
+
+.hao{
+    position: relative;
+    width: 243.388x;
+    height: 23px;
+    margin: 19px 24px 0px 0px;
+    top: -5px;
+    text-decoration-line: none;
+    color: #000;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 314px;
+    margin: 0px 130.4px 0px 130.4px;
+}
+
+.pic{
+    width: 52%;
+    height: 188.4px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.picture{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: -10px;
+    top: 16px;
+}
+
+.input{
+    width: 52%;
+    height: 125.6px;
+}
+
+.sousuo{
+    width: 443px;
+    height: 16px;
+    padding: 12px 87px 12px 16px;
+    border: 2px;
+    font-size: 12px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-color: rgb(196, 199, 206);
+    border-style: solid;
+}
+
+.ann{
+    font-size: 17px;
+    position: relative;
+    width: 108px;
+    height: 44px;
+    border: 0px;
+    background-color: #4e6ef2;
+    color: aliceblue;
+    border-color: aliceblue;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    left: -8px;
+    top:2px;
+}
+
+.empty{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 314px;
+    margin: 0px 130.4px 0px 130.4px;
+}
+
+.doubleq{
+    position: relative;
+    width: 100px;
+    height: 25px;
+    text-decoration-line: none;
+    color: #000;
+    left: 20px;
+    top: 10px;
+}
+
+.line{
+    width: 900px;
+    height: 39px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.doubleqr{
+    position: relative;
+    width: 100px;
+    height: 25px;
+    text-decoration-line: none;
+    color:#4e6ef2;
+}

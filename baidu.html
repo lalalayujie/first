@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>百度一下，你就知道</title>
+    <link rel="stylesheet" href="baidu.css">
+</head>
+
+
+<body>
+    <div class="head">
+    <div class="left-h">
+        <a class="double" href="http://news.baidu.com/" target="_blank">新闻</a>
+        <a class="hao" href="https://www.hao123.com/" target="_blank">hao123</a>
+        <a class="double" href="https://map.baidu.com/" target="_blank">地图</a>
+        <a class="double" href="https://tieba.baidu.com/" target="_blank">贴吧</a>
+        <a class="double" href="https://haokan.baidu.com/" target="_blank">视频</a>
+        <a class="double" href="https://image.baidu.com/" target="_blank">图片</a>
+        <a class="double" href="https://pan.baidu.com/" target="_blank">网盘</a>
+        <a class="double" href="https://www.baidu.com/more/" target="_blank">更多</a>
+    </div>
+
+    </div>
+
+
+<div class="main">
+    <div class="pic">
+        <a class="logo" href="https://www.baidu.com/s?wd=%E7%99%BE%E5%BA%A6%E7%83%AD%E6%90%9C&sa=ire_dl_gh_logo_texing&rsv_dl=igh_logo_pc">
+            <img class="picture" src="./leq.png" alt="baidu">
+        </a>
+    </div>
+
+    <div class="input">
+        <input class="sousuo" id="texa" type="text" placeholder="林二琴专属网页"><button class="ann" onclick="xixi()">百度一下</button>
+    </div>
+
+</div>
+
+<div class="empty">
+<div class="line">
+    <a class="doubleqr" href="https://www.bilibili.com/" target="_blank">bilibili</a>
+    <a class="doubleqr" href="https://space.bilibili.com/5970160/video" target="_blank">小潮院长</a>
+    <a class="doubleqr" href="https://space.bilibili.com/113362335/video" target="_blank">宝剑嫂</a>
+    <a class="doubleqr" href="https://space.bilibili.com/147166910/video" target="_blank">雨哥到处跑</a>
+    <a class="doubleqr" href="https://space.bilibili.com/285499073/video" target="_blank">东尼ookii</a>
+</div>
+
+<div class="line">
+    <a class="doubleqr" href="https://space.bilibili.com/19642758/video" target="_blank">力元君</a>
+    <a class="doubleqr" href="https://space.bilibili.com/13354765/video" target="_blank">徐大虾咯</a>
+    <a class="doubleqr" href="https://space.bilibili.com/285571498/video" target="_blank">盖里老哥</a>
+    <a class="doubleqr" href="https://space.bilibili.com/10272440/video" target="_blank">骚拳超人</a>
+    <a class="doubleqr" href="https://space.bilibili.com/1155574439/video" target="_blank">真子日记</a>
+</div>
+
+<div class="line">
+    <a class="doubleqr" href="https://space.bilibili.com/1548805549/video" target="_blank">甜蜜老张</a>
+    <a class="doubleqr" href="https://space.bilibili.com/50295692/video" target="_blank">邓峰</a>
+    <a class="doubleqr" href="https://youku.com/" target="_blank">优酷</a>
+    <a class="doubleqr" href="http://fjisu.top/" target="_blank">飞极速</a>
+    <a class="doubleqr" href="https://www.mgtv.com/" target="_blank">芒果TV</a>
+</div>
+
+<div class="line">
+    <a class="doubleqr" href="https://www.abchina.com/cn/" target="_blank">农业银行</a>
+    <a class="doubleqr" href="http://www.nbcb.com.cn/" target="_blank">宁波银行</a>
+    <a class="doubleqr" href="http://www.icbc.com.cn/icbc/" target="_blank">工商银行</a>
+    <a class="doubleqr" href="https://mybank.cn/" target="_blank">网商银行</a>
+    <a class="doubleqr" href="https://www.1688.com/" target="_blank">1688</a>
+</div>
+
+</div>
+
+<style>
+    .view_port {
+      position: relative;
+      height: 0px;
+      width: 100%;
+      display: flex;
+      flex-direction: row-reverse;
+      top: -90px;
+    }
+    
+    .view{
+      position: relative;
+      height: 100px;
+      width: 100%;
+      top: -90px;
+    }
+    
+    .haha{
+      position: relative;
+      height: 0px;
+      width: 100%;
+      top: -150px;
+    }
+    
+    .cylon_eye {
+      height: 100px;
+      width: 100px;
+    
+      -webkit-animation: 2s linear 0s infinite alternate move_eye;
+              animation: 2s linear 0s infinite alternate move_eye;
+    }
+    
+    .cylon_eyee {
+      height: 100px;
+      width: 100px;
+    
+      -webkit-animation: 2s linear 0s infinite alternate move_eyee;
+              animation: 2s linear 0s infinite alternate move_eyee;
+    }
+    
+    .love_love {
+      height: 130px;
+      width: 130px;
+    
+      -webkit-animation: 4s linear 0s infinite alternate move_love;
+              animation: 4s linear 0s infinite alternate move_love;
+    }
+    
+    @-webkit-keyframes move_eye { from { margin-left: 0%; } to { margin-left: 0%; }  }
+            @keyframes move_eye { from { margin-right: 0%; } to { margin-right: 45%; }  }
+    
+    @-webkit-keyframes move_eyee { from { margin-left: 0%; } to { margin-left: 0%; }  }
+            @keyframes move_eyee { from { margin-left: 0%; } to { margin-left: 45%; }  }
+    
+    @-webkit-keyframes move_love { from { margin-left: 0%; } to { margin-left: 0%; }  }
+            @keyframes move_love { from { margin-left: 0.8%; } to { margin-left: 90.8%; }  }
+    </style>
+    
+    <div class="haha">
+      <img class="love_love" src="./love.png">
+    </div>  
+    
+    <div class="view_port">
+      <img class="cylon_eye" src="./leq.png">
+    </div>
+    
+    <div class="view">
+      <img class="cylon_eyee" src="./zyz.png">
+    </div>
+
+<script>
+    function xixi(){
+        var text = document.getElementById("texa").value;
+        document.location.href = 'http://www.baidu.com/s?wd=' + text;
+    }
+</script>
+
+</body>
+
+</html>
